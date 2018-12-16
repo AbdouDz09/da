@@ -1252,18 +1252,6 @@ channel.send({embed : embed});
          }
      });
 
-
-
-client.on("guildMemberAdd", member => {
-  member.createDM().then(function (channel) {
-  return channel.send( :rose:  ولكم نورت السيرفر:rose: 
-:crown:اسم العضو  ${member}:crown: 
-انشأء  الله تتفاعل
-انت العضو رقم ${member.guild.memberCount}) 
-}).catch(console.error)
-})
- 
-
 client.on('guildMemberAdd', msg => { 
     var embed = new Discord.RichEmbed()
     .setAuthor(msg.user.username, msg.user.avatarURL)
