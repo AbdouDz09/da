@@ -1231,7 +1231,7 @@ client.on('guildMemberAdd', member => {
     .setDescription('***بكل حب واحترام وشوق نستقبلك ونتمنى لك قضآء أجمل اللحظات ولآوقات معنا***')
     .setColor('RANDOM')
     .setImage('https://cdn.discordapp.com/attachments/521419225651347464/521796154044710923/---3.gif')
-var channel = member.guild.channels.find('name', '✗welcome')
+var channel = member.guild.channels.find('name', '✗𝐖𝐞𝐥𝐜𝐨𝐦𝐞')
 if (!channel) return;
 channel.send({embed : embed});
 });
