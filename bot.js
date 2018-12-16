@@ -851,7 +851,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Abdou ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`*help | Derbo System`,"http://twitch.tv/abdoufersaoui_dz")
+client.user.setGame(`*help | HK System`,"http://twitch.tv/abdoufersaoui_dz")
 client.user.setStatus("dnd")
 });
 
@@ -1256,7 +1256,7 @@ channel.send({embed : embed});
 
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(:rose:  ولكم نورت السيرفر:rose: 
+  return channel.send( :rose:  ولكم نورت السيرفر:rose: 
 :crown:اسم العضو  ${member}:crown: 
 انشأء  الله تتفاعل
 انت العضو رقم ${member.guild.memberCount}) 
